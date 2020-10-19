@@ -1141,7 +1141,7 @@ video {
 }
 
 .bg-full {
-  background-size: 100;
+  background-size: 100$;
 }
 
 .border-collapse {
@@ -1366,10 +1366,6 @@ video {
 
 .h-5 {
   height: 1.25rem;
-}
-
-.h-8 {
-  height: 2rem;
 }
 
 .h-10 {

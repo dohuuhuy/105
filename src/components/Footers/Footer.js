@@ -61,7 +61,7 @@ export default function Footer() {
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
                   <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
-                   Liên kết
+                    Liên kết
                   </span>
                   <ul className="list-unstyled">
                     <li>
@@ -80,13 +80,13 @@ export default function Footer() {
                         Cá nhân
                       </a>
                     </li>
-                  
+
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="/"
                       >
-                       Dịch vụ
+                        Dịch vụ
                       </a>
                     </li>
                   </ul>
@@ -101,7 +101,7 @@ export default function Footer() {
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="/"
                       >
-                     Trang thiết bị
+                        Trang thiết bị
                       </a>
                     </li>
                     <li>
@@ -109,7 +109,7 @@ export default function Footer() {
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="/"
                       >
-                       Đội ngũ bác sỉ
+                        Đội ngũ bác sỉ
                       </a>
                     </li>
                     <li>
@@ -117,7 +117,7 @@ export default function Footer() {
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="/"
                       >
-                      Chính sách 
+                        Chính sách
                       </a>
                     </li>
                     <li>
@@ -125,7 +125,7 @@ export default function Footer() {
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="/"
                       >
-                       liên hệ
+                        liên hệ
                       </a>
                     </li>
                   </ul>
@@ -137,12 +137,9 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-gray-600 font-semibold py-1">
-                Copyright © {new Date().getFullYear()}  by{" "}
-                <a
-                  href="/"
-                  className="text-gray-600 hover:text-gray-900"
-                >
-                Hu-Yi
+                Copyright © {new Date().getFullYear()} by{" "}
+                <a href="/" className="text-gray-600 hover:text-gray-900">
+                  Hu-Yi
                 </a>
                 .
               </div>

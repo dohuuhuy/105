@@ -99,7 +99,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/notus-react/blob/master/LICENSE.md?ref=nr-footer"
+                        href="/"
                       >
                      Trang thiết bị
                       </a>
@@ -107,7 +107,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms?ref=nr-footer"
+                        href="/"
                       >
                        Đội ngũ bác sỉ
                       </a>
@@ -115,7 +115,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy?ref=nr-footer"
+                        href="/"
                       >
                       Chính sách 
                       </a>
@@ -123,7 +123,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us?ref=nr-footer"
+                        href="/"
                       >
                        liên hệ
                       </a>

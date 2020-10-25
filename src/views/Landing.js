@@ -15,8 +15,7 @@ export default function Landing() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage:
-              `url(${logo})`
+              backgroundImage: `url(${logo})`,
             }}
           >
             <span
@@ -91,28 +90,26 @@ export default function Landing() {
                     <h6 className="text-xl font-semibold">
                       Thời gian làm việc
                     </h6>
-          
-                    <ul className="mt-2 mb-4 text-gray-600">
-  <li>
-    <span className="left"> Sáng </span>
-    <span className="right">7h00 - 11h00</span>
-  </li>
-  <li>
-    <span className="left"> Chiều </span>
-    <span className="right">13h30 – 20h30</span>
-  </li>
-  <li>
-    <span className="left"> Cấp cứu </span>
-    <span className="right">24/24 </span>
-  </li>
-</ul>
 
-               
+                    <ul className="mt-2 mb-4 text-gray-600">
+                      <li>
+                        <span className="left"> Sáng </span>
+                        <span className="right">7h00 - 11h00</span>
+                      </li>
+                      <li>
+                        <span className="left"> Chiều </span>
+                        <span className="right">13h30 – 20h30</span>
+                      </li>
+                      <li>
+                        <span className="left"> Cấp cứu </span>
+                        <span className="right">24/24 </span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
 
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
@@ -213,7 +210,7 @@ export default function Landing() {
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
                   src={require("assets/img/trangbi.jpg")}
-/>
+                />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
@@ -303,7 +300,6 @@ export default function Landing() {
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                       Phó Giám Đốc Y Khoa
                     </p>
-             
                   </div>
                 </div>
               </div>
@@ -321,7 +317,6 @@ export default function Landing() {
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                       Marketing Specialist
                     </p>
-               
                   </div>
                 </div>
               </div>
@@ -337,9 +332,8 @@ export default function Landing() {
                       BS.CKI – Trần Đoàn Phương Trân
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Phó Khoa Khám Bệnh
+                      Phó Khoa Khám Bệnh
                     </p>
-         
                   </div>
                 </div>
               </div>
@@ -355,9 +349,8 @@ export default function Landing() {
                       BS – Đặng Thị Tuyết Nga
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Phó P. Khám KHHGĐ
+                      Phó P. Khám KHHGĐ
                     </p>
-           
                   </div>
                 </div>
               </div>
@@ -373,9 +366,8 @@ export default function Landing() {
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">BS.CKI – Phạm Thị Hoa</h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Phòng Cấp Cứu
+                      Phòng Cấp Cứu
                     </p>
-               
                   </div>
                 </div>
               </div>
@@ -389,9 +381,8 @@ export default function Landing() {
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">BS – Hồ Viết Ái</h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Phó Khoa PT – GMHS
+                      Phó Khoa PT – GMHS
                     </p>
-               
                   </div>
                 </div>
               </div>
@@ -407,9 +398,8 @@ export default function Landing() {
                       TS.BS – Phạm Thành Đức
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Khoa tiêu hóa gan mật
+                      Khoa tiêu hóa gan mật
                     </p>
-           
                   </div>
                 </div>
               </div>
@@ -444,9 +434,7 @@ export default function Landing() {
                 <h2 className="text-4xl font-semibold text-white">
                   Xây dựng thương hiệu
                 </h2>
-                <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                 
-                </p>
+                <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500"></p>
               </div>
             </div>
             <div className="flex flex-wrap mt-12 justify-center">
@@ -458,11 +446,12 @@ export default function Landing() {
                   Giấy phép
                 </h6>
                 <p className="mt-2 mb-4 text-gray-500">
-                Giấy phép hoạt động khám chữa bệnh số 04016/HCM-GPHĐ do Sở y tế Tp. Hồ Chí Minh cấp ngày 23/11/2009;<br/>
-
-Căn cứ Nghị định số 41/2011/TT-BYT ngày 27 tháng 9 năm 2011 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều Luật khám bệnh, chữa bệnh;
-
-
+                  Giấy phép hoạt động khám chữa bệnh số 04016/HCM-GPHĐ do Sở y
+                  tế Tp. Hồ Chí Minh cấp ngày 23/11/2009;
+                  <br />
+                  Căn cứ Nghị định số 41/2011/TT-BYT ngày 27 tháng 9 năm 2011
+                  của Chính phủ quy định chi tiết và hướng dẫn thi hành một số
+                  điều Luật khám bệnh, chữa bệnh;
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -497,10 +486,11 @@ Căn cứ Nghị định số 41/2011/TT-BYT ngày 27 tháng 9 năm 2011 của C
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold">
-                    Muốn làm việc với chúng tôi không?
+                      Muốn làm việc với chúng tôi không?
                     </h4>
                     <p className="leading-relaxed mt-1 mb-4 text-gray-600">
-                    Hoàn thành mẫu đơn này và chúng tôi sẽ phản hồi lại cho bạn trong vòng 24 giờ.
+                      Hoàn thành mẫu đơn này và chúng tôi sẽ phản hồi lại cho
+                      bạn trong vòng 24 giờ.
                     </p>
                     <div className="relative w-full mb-3 mt-8">
                       <label

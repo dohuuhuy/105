@@ -10,7 +10,7 @@ export default function Register() {
               <div className="rounded-t mb-0 px-6 py-6">
                 <div className="text-center mb-3">
                   <h6 className="text-gray-600 text-sm font-bold">
-                 Đăng nhập với
+                    Đăng nhập với
                   </h6>
                 </div>
                 <div className="btn-wrapper text-center">
@@ -21,7 +21,7 @@ export default function Register() {
                     <img
                       alt="..."
                       className="w-5 mr-1"
-                      src={require("assets/img/github.svg")}
+                      src={"img/github.svg"}
                     />
                     Facebook
                   </button>
@@ -32,7 +32,7 @@ export default function Register() {
                     <img
                       alt="..."
                       className="w-5 mr-1"
-                      src={require("assets/img/google.svg")}
+                      src={"img/google.svg"}
                     />
                     Google
                   </button>
@@ -100,7 +100,7 @@ export default function Register() {
                           className="text-blue-500"
                           onClick={(e) => e.preventDefault()}
                         >
-                        với điều khoản
+                          với điều khoản
                         </a>
                       </span>
                     </label>

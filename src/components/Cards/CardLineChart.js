@@ -1,5 +1,5 @@
+import { Chart } from "chart.js";
 import React from "react";
-import Chart from "chart.js";
 
 export default function CardLineChart() {
   React.useEffect(() => {

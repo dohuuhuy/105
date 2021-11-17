@@ -50,7 +50,7 @@ export default function Profile() {
                     <div className="relative">
                       <img
                         alt="..."
-                        src={require("assets/img/logo.jpg")}
+                        src={"img/logo.jpg"}
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>
@@ -123,23 +123,34 @@ export default function Profile() {
                         mở hồ sơ khách hàng, Quý khách cần cung cấp:
                         <br />
                         <ul className="pl-4">
-                          <li> <i class="fas fa-angle-right"></i> Giấy tờ cần thiết</li>
-                          <li> <i class="fas fa-angle-right"></i> Họ tên </li>
-
                           <li>
-                          <i class="fas fa-angle-right"></i> Chứng minh thư nhân dân/ Thẻ căn cước công dân/Hộ
-                            chiếu hoặc Giấy khai sinh (nếu là trẻ em);
+                            {" "}
+                            <i class="fas fa-angle-right"></i> Giấy tờ cần thiết
+                          </li>
+                          <li>
+                            {" "}
+                            <i class="fas fa-angle-right"></i> Họ tên{" "}
                           </li>
 
                           <li>
-                          <i class="fas fa-angle-right"></i> Thẻ bảo hiểm y tế/ Thẻ bảo hiểm tư nhân (nếu có) để
-                            làm thủ tục.
+                            <i class="fas fa-angle-right"></i> Chứng minh thư
+                            nhân dân/ Thẻ căn cước công dân/Hộ chiếu hoặc Giấy
+                            khai sinh (nếu là trẻ em);
                           </li>
 
-                          <li> <i class="fas fa-angle-right"></i> Các loại thẻ/phiếu ưu đãi (nếu có) </li>
+                          <li>
+                            <i class="fas fa-angle-right"></i> Thẻ bảo hiểm y
+                            tế/ Thẻ bảo hiểm tư nhân (nếu có) để làm thủ tục.
+                          </li>
+
+                          <li>
+                            {" "}
+                            <i class="fas fa-angle-right"></i> Các loại
+                            thẻ/phiếu ưu đãi (nếu có){" "}
+                          </li>
                         </ul>
                         <br />
-                       <strong> Quý khách lưu ý:</strong>
+                        <strong> Quý khách lưu ý:</strong>
                         <br />
                         Các giấy tờ kể trên cần được mang theo tại tất cả các
                         lần sử dụng dịch vụ tại bệnh viện Phòng khám đa khoa
@@ -151,45 +162,48 @@ export default function Profile() {
                         (1) Họ tên đầy đủ, <br />
                         (2) Ngày tháng năm sinh và mã PID (nếu cần) để tránh tối
                         đa các sai sót có thể xảy ra.
-                        <br />   <br />   <br />
-                       <strong> Để tìm hiểu tất cả các thông tin về bệnh viện, Quý khách
-                        có thể xem tại các bảng tin và hệ thống quầy thông tin
-                        đặt tại sảnh chính bệnh viện. <br />
-                        Ngoài ra, Quý khách cũng có thể yêu cầu thăm quan bệnh
-                        viện với sự hỗ trợ từ nhân viên chăm sóc khách hàng.</strong>
+                        <br /> <br /> <br />
+                        <strong>
+                          {" "}
+                          Để tìm hiểu tất cả các thông tin về bệnh viện, Quý
+                          khách có thể xem tại các bảng tin và hệ thống quầy
+                          thông tin đặt tại sảnh chính bệnh viện. <br />
+                          Ngoài ra, Quý khách cũng có thể yêu cầu thăm quan bệnh
+                          viện với sự hỗ trợ từ nhân viên chăm sóc khách hàng.
+                        </strong>
                         <br />
                         Quy trình khám chữa bệnh tại Phòng khám đa khoa 105
-                        <br />   <br />
+                        <br /> <br />
                         Bước 1: Điền phiếu đăng ký (01 bản) và Sao chụp các loại
                         giấy tờ tùy thân, thẻ Bảo hiểm...
-                        <br />   <br />
+                        <br /> <br />
                         Bước 2: Ký chứng từ thanh toán (02 bảng kê + 01 biên lai
                         thu tiền viện phí) và Ký thanh toán bảo hiểm (01 bản -
                         nếu khách hàng sử dụng Bảo hiểm tư nhân)
-                        <br />   <br />
+                        <br /> <br />
                         Bước 3: Ký phiếu đồng ý làm xét nghiệm HIV, phiếu đồng ý
                         thực hiện chẩn đoán trước khi thực hiện dịch vụ (nếu có)
                         hoặc phiếu từ chối thực hiện (01 bản)
-                        <br />   <br />
+                        <br /> <br />
                         Bước 4: Ký chứng từ thanh toán (02 bảng kê + 01 biên lai
                         thu tiền viện phí) và Ký thanh toán bảo hiểm (01 bản -
                         nếu khách hàng sử dụng Bảo hiểm tư nhân)
-                        <br />   <br />
+                        <br /> <br />
                         Bước 5: Ký phiếu yêu cầu sử dụng dịch vụ (02 bản)
-                        <br />   <br />
+                        <br /> <br />
                         Bước 6: Ký phiếu yêu cầu sử dụng dịch vụ (02 bản) và Ký
                         phiếu đồng ý điều trị (01 bản)
-                        <br />   <br />
+                        <br /> <br />
                         Bước 7: Ký chứng từ thanh toán (02 bảng kê + 01 biên lai
                         thu tiền) và Ký thanh toán bảo hiểm và cam kết thanh
                         toán (02 bản - đối với khách hàng có Bảo hiểm tư nhân)
-                        <br />   <br />
+                        <br /> <br />
                         Bước 8: Ký phiếu xác nhận giờ nhận và trả phòng (01
                         bản); Ký chứng từ thanh toán (02 bản kê + 01 biên lai
                         thu tiền); Ký phiếu xác nhận bồi thường bảo hiểm (01 bản
                         - đối với khách hàng dùng Bảo hiểm y tế/ Bảo hiểm tư
                         nhân)
-                        <br />   <br />
+                        <br /> <br />
                       </p>
 
                       {/* <a

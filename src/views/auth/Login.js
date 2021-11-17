@@ -11,7 +11,7 @@ export default function Login() {
               <div className="rounded-t mb-0 px-6 py-6">
                 <div className="text-center mb-3">
                   <h6 className="text-gray-600 text-sm font-bold">
-                   Đăng nhập với
+                    Đăng nhập với
                   </h6>
                 </div>
                 <div className="btn-wrapper text-center">
@@ -22,7 +22,7 @@ export default function Login() {
                     <img
                       alt="..."
                       className="w-5 mr-1"
-                      src={require("assets/img/github.svg")}
+                      src={"img/github.svg"}
                     />
                     Facebook
                   </button>
@@ -33,7 +33,7 @@ export default function Login() {
                     <img
                       alt="..."
                       className="w-5 mr-1"
-                      src={require("assets/img/google.svg")}
+                      src={"img/google.svg"}
                     />
                     Google
                   </button>
@@ -90,7 +90,7 @@ export default function Login() {
                       className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                       type="button"
                     >
-                     Dăng nhập
+                      Dăng nhập
                     </button>
                   </div>
                 </form>

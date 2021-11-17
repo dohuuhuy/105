@@ -1,10 +1,8 @@
+import Footer from "components/Footers/Footer.js";
+// components
+import Navbar from "components/Navbars/AuthNavbar.js";
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./../assets/img/logo1.jpg"
-// components
-
-import Navbar from "components/Navbars/AuthNavbar.js";
-import Footer from "components/Footers/Footer.js";
 
 export default function Landing() {
   return (
@@ -15,7 +13,7 @@ export default function Landing() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: `url(${logo})`,
+              backgroundImage: `url('img/logo1.jpg')`,
             }}
           >
             <span
@@ -152,7 +150,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blue-600">
                   <img
                     alt="..."
-                    src={require("assets/img/dichvu.png")}
+                    src={"img/dichvu.png"}
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -167,6 +165,7 @@ export default function Landing() {
                         className="text-blue-600 fill-current"
                       ></polygon>
                     </svg>
+
                     <h4 className="text-xl font-bold text-white">
                       Dịch vụ của chúng tôi
                     </h4>
@@ -209,7 +208,7 @@ export default function Landing() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={require("assets/img/trangbi.jpg")}
+                  src={"img/trangbi.jpg"}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -290,7 +289,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/DoiNguBacSi/TranAnhTuan.png")}
+                    src={"img/DoiNguBacSi/TranAnhTuan.png"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -307,7 +306,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/DoiNguBacSi/PhanThiXuanLan.png")}
+                    src={"img/DoiNguBacSi/PhanThiXuanLan.png"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -324,7 +323,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/DoiNguBacSi/TranDoanPhuongTran.png")}
+                    src={"img/DoiNguBacSi/TranDoanPhuongTran.png"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -341,7 +340,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/DoiNguBacSi/DangThiTuyetNga.png")}
+                    src={"img/DoiNguBacSi/DangThiTuyetNga.png"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -360,7 +359,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/DoiNguBacSi/PhamThiHoa.png")}
+                    src={"img/DoiNguBacSi/PhamThiHoa.png"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -375,7 +374,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/DoiNguBacSi/HoVietAi.png")}
+                    src={"img/DoiNguBacSi/HoVietAi.png"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -390,7 +389,7 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/DoiNguBacSi/PhamThanhDuc.png")}
+                    src={"img/DoiNguBacSi/PhamThanhDuc.png"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">

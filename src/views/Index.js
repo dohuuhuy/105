@@ -31,14 +31,14 @@ export default function Index() {
               </p>
               <div className="mt-12">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus?ref=nr-index"
+                  href="#"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blue-500 active:bg-blue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
                 <a
-                  href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
+                  href="#"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   target="_blank"
                 >
